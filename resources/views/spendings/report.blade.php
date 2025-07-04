@@ -41,14 +41,14 @@
         </div>
 
         {{-- Tabel Report --}}
-        <div class="overflow-x-auto">
-            <table class="min-w-full text-sm border border-gray-300">
-                <thead class="bg-gray-100 text-gray-700">
-                    <tr>
-                        <th class="px-4 py-2 border border-gray-300 text-left">Employee</th>
-                        <th class="px-4 py-2 border border-gray-300 text-left">Department</th>
-                        <th class="px-4 py-2 border border-gray-300 text-left">Date</th>
-                        <th class="px-4 py-2 border border-gray-300 text-left">Value</th>
+        <div class="overflow-x-auto rounded-md">
+            <table class="min-w-full text-sm border border-gray-300 text-center">
+                <thead class="bg-gray-100 text-white">
+                    <tr class="bg-blue-800">
+                        <th class="px-4 py-2 border border-gray-300 text-center">Employee</th>
+                        <th class="px-4 py-2 border border-gray-300 text-center">Department</th>
+                        <th class="px-4 py-2 border border-gray-300 text-center">Date</th>
+                        <th class="px-4 py-2 border border-gray-300 text-center">Value</th>
                     </tr>
                 </thead>
                 <tbody>

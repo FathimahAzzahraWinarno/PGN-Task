@@ -20,15 +20,15 @@
             </div>
         @endif
 
-        <div class="overflow-x-auto">
+        <div class="overflow-x-auto rounded-md shadow-sm">
             <table class="min-w-full divide-y divide-gray-200 text-center">
-                <thead class="bg-gray-50">
-                    <tr class="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase">
-                        <th>ID</th>
-                        <th>Employee</th>
-                        <th>Date</th>
-                        <th>Value</th>
-                        <th>Actions</th>
+                <thead class="bg-blue-800">
+                    <tr>
+                        <th class="px-6 py-3 text-center text-xs font-medium text-white uppercase">ID</th>
+                        <th class="px-6 py-3 text-center text-xs font-medium text-white uppercase">Employee</th>
+                        <th class="px-6 py-3 text-center text-xs font-medium text-white uppercase">Date</th>
+                        <th class="px-6 py-3 text-center text-xs font-medium text-white uppercase">Value</th>
+                        <th class="px-6 py-3 text-center text-xs font-medium text-white uppercase">Actions</th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">

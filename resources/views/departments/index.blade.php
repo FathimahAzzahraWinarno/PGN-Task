@@ -13,16 +13,16 @@
         </div>
     @endif
 
-    <div class="overflow-x-auto">
+    <div class="overflow-x-auto rounded-md shadow-sm">
         <table class="min-w-full divide-y divide-gray-200">
-            <thead class="bg-gray-50">
+            <thead class="bg-blue-800">
                 <tr>
-                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">ID</th>
-                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Name</th>
-                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Actions</th>
+                    <th class="px-6 py-3 text-center text-xs font-medium text-white uppercase">ID</th>
+                    <th class="px-6 py-3 text-center text-xs font-medium text-white uppercase">Name</th>
+                    <th class="px-6 py-3 text-center text-xs font-medium text-white uppercase">Actions</th>
                 </tr>
             </thead>
-            <tbody class="bg-white divide-y divide-gray-200">
+            <tbody class="bg-white divide-y divide-gray-200 text-center">
                 @foreach($departments as $department)
                     <tr x-data="{ modal: false, confirmModal: false }">
                         <td class="px-6 py-4">{{ $department->id }}</td>
